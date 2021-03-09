@@ -2,6 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import scipy
 
+#Problem2
+#https://github.com/MilkButterCheese/UOS_ComputationalPhysics
+
+
 #Problem3
 ex=np.array([1,0]) 
 ey=np.array([0,1])
@@ -21,7 +25,6 @@ Acol1= 0.5*(np.array([3,2])+np.array([-1,-2]))
 Acol2= 0.5*(np.array([3,2])-np.array([-1,-2]))
 A=np.c_[Acol1,Acol2]
 print(A)
-#A=([[1,2],[0,2]])
 
 #Problem 5
 #x+y=40, 2x+4y=92 
