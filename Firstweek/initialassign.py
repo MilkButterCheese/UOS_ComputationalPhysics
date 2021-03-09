@@ -21,6 +21,7 @@ Acol1= 0.5*(np.array([3,2])+np.array([-1,-2]))
 Acol2= 0.5*(np.array([3,2])-np.array([-1,-2]))
 A=np.c_[Acol1,Acol2]
 print(A)
+#A=([[1,2],[0,2]])
 
 #Problem 5
 #x+y=40, 2x+4y=92 
@@ -29,3 +30,4 @@ Ainv=np.linalg.inv(A)
 b=np.array([40,92])
 y=np.dot(Ainv,b)
 print(y)
+# x=34 닭의 수 y=6 토끼의 수
