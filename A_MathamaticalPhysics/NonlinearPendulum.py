@@ -37,9 +37,9 @@ K5= np.array(sp.ellipk(m[4]))
 
 #그래프 그리기
 
-plt.plot(t*K1,theta1/alpha[0],'r')
-plt.plot(t*K2,theta2/alpha[1],'g')
-plt.plot(t*K3,theta3/alpha[2],'b')
-plt.plot(t*K4,theta4/alpha[3],'y')
-plt.plot(t*K5,theta5/alpha[4],'m')
+plt.plot(t/K1,theta1/alpha[0],'r')
+plt.plot(t/K2,theta2/alpha[1],'g')
+plt.plot(t/K3,theta3/alpha[2],'b')
+plt.plot(t/K4,theta4/alpha[3],'y')
+plt.plot(t/K5,theta5/alpha[4],'m')
 plt.show()
