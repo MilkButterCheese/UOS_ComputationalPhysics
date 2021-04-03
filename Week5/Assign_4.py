@@ -91,4 +91,4 @@ x_0=np.array([-1,0,0])
 # print(s_1) # s_1이 0이 되므로 값을 더이상 구할수 업게 됨
 
 x=np.linalg.inv(A)@b
-print(x)
+print(x) # x=[-1,0,1]
